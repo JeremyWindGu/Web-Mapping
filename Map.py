@@ -81,4 +81,4 @@ if __name__ == "__main__":
     base_name = os.path.splitext(os.path.basename(geojson_path))[0]
     output_html = f"Map_of_{base_name}.html"
     m.save(output_html)
-    print(f"The map has been saved to {output_html}")
+    print(f"The map has been saved to - {output_html}")
